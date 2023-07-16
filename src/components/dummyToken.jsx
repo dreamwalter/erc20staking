@@ -22,7 +22,7 @@ const addDummyTokenToMetaMask = async () => {
                 type: "ERC20",
                 options: {
                     address: DUMMY_TOKEN_ADDRESS,
-                    symbol: "DT",
+                    symbol: "CFC",
                     decimals: 18,
                 },
             },
@@ -63,7 +63,7 @@ const DummyToken = ({ account }) => {
     if (!balance) {
         return (
             <div>
-                <h2>Dummy Token</h2>
+                <h2>CFC Token</h2>
                 <p>Loading...</p>
             </div>
         );
